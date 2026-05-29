@@ -1,0 +1,13 @@
+allowBuilds:
+    bcrypt: false
+    sharp: false
+    unrs-resolver: false
+
+onlyBuiltDependencies:
+    - bcrypt
+    - sharp
+    - esbuild
+    - "@next/swc"
+
+overrides:
+    eslint-plugin-react: "latest"
